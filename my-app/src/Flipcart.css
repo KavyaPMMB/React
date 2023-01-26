@@ -1,0 +1,94 @@
+.nav
+{
+    padding-top: 20px;
+    padding-left: 100px;
+    height: 90px;
+}
+.navbar-brand
+{
+
+}
+.logo
+{
+    width:40%;
+}
+.plus
+{
+    color: white;
+    font-style: italic;
+}
+.plus2
+{
+    color: yellow;
+    font-weight: 500;
+}
+.search
+    {
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 2px 0 0 2px;
+    outline: 0 none;
+    font-size: 20px;
+    height: 50px;
+    width: 600px;
+}
+.login
+{
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 50px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+.navlink1
+{
+    color: white;
+    font-weight: 800;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.navlink2
+{
+    color: white;
+    font-weight:800 ;
+    margin-right: 20px;
+}
+#navbarScrollingDropdown
+{
+    color: white;
+}
+.navlink3
+{
+    color: white;
+    font-weight: 800;
+}
+.icon2
+{
+    color: white;
+    height: 2em;
+    width: 2em;
+}
+.banner
+{
+    display: flex;
+    text-align: center;
+}
+.pro
+{
+    padding-right: 60px;
+    font-weight: 700;
+    color: black;
+}
+.atag
+{
+    text-decoration: none;
+}
+.cardbody
+{
+    height: 550px;
+    width: 200px;
+    color: #2874f0;
+}

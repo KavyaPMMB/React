@@ -1,0 +1,20 @@
+#red
+{
+background-color: red;
+margin: 5px;
+}
+#yellow
+{
+    background-color: yellow;
+    margin: 5px;
+}
+#blue
+{
+    background-color: blue;
+    margin: 5px;
+}
+.button
+{
+    width: 100px;
+    border-radius: 5px;
+}
