@@ -36,14 +36,15 @@ import Dummy from "./Dummy";
 import About from "./About";
 import Login from "./Login";
 import Login2 from "./Login2";
+import SignIn from "./SignIn";
 
 
 
 function App() {
   return (
     <div className="App">
-       <Login/>
-       <Login2/>
+       <Login2/>{" "}
+       <SignIn/>
        
       
   
