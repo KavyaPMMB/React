@@ -9,11 +9,11 @@ function Login2() {
   const [password, setPassword] = useState("");
   console.log(username);
   console.log(password);
-  const handleUsername = (dis) => {
-    setUsername(dis.target.value);
+  const handleUsername = (event) => {
+    setUsername(event.target.value);
   };
-  const handlePassword = (dis) => {
-    setPassword(dis.target.value);
+  const handlePassword = (event) => {
+    setPassword(event.target.value);
   };
   const handleSubmit = (event) => {
     event.preventDefault();
