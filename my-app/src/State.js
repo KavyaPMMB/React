@@ -5,7 +5,7 @@ function State() {
   return (
     <div>
       <h1>my name is {name}</h1>
-      <button onClick={() => setname(name)}>Change</button>
+      <button onClick={() => setname("Laya")}>Change</button>
     </div>
   );
 }

@@ -8,12 +8,17 @@ import Spread2 from './Spread2';
 import Map2 from './Map2';
 import Map3 from './Map3';
 import Props3 from './Props3';
+import UseEffect2 from './UseEffect2';
+import Props6 from './Props6';
+import AddDataIntoTable from './AddDataIntoTable';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hiiiii</h1>
+      <AddDataIntoTable/>
+      <Props6/>
+      <UseEffect2/>
              <Changecolor/>
             <Props/>
             <Spread/>
@@ -22,6 +27,7 @@ function App() {
             <Map3/>
             <Props3/>
             <New/>
+            
     </div>
   );
 }

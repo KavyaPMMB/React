@@ -8,6 +8,7 @@ function Array() {
         brand:"Ford",
         color:"red"
     })
+  
     const Colorchange =()=> {
         setcar(prevobj=>{return{...prevobj,color:"white"}})
     }

@@ -58,7 +58,7 @@ function Flipcart() {
                 Login
               </Button>
 
-              <Nav.Link className="navlink1" href="#action1">
+              <Nav.Link className="navlink1" href="/Seller.jsx">
                 Become a seller
               </Nav.Link>
               <NavDropdown

@@ -1,21 +1,12 @@
-import React from 'react'
 import axios from 'axios'
-import { useState } from 'react'
+import React from 'react'
 
 function Dummy() {
-    axios.get('https://dummyjson.com/products').then((abc)=>{
-        console.log(abc.data.products)
-        setfirst(abc.data.products)
+    axios.get('https://dummyjson.com/carts').then((display)=>{
+        console.log(display)
     })
-    const [first, setfirst] = useState([])
   return (
-    <div>
-        {first.map((abc)=>(
-            <p>{abc.title}</p>
-        
-        )
-        )}
-    </div>
+    <div></div>
   )
 }
 

@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 
 function Dummy2() {
-    axios.get('https://dummyjson.com/products').then((display)=>{
+    axios.get('shttps://dummyjson.com/product').then((display)=>{
         setfirst(display.data.products)
         
     })

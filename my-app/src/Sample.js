@@ -2,12 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 function Sample() {
     const [first, setfirst] = useState("hloooo")
-    useEffect(() => {
-        alert(`hiii ${first}`)
-      
-    },[first])
 
-   
     
   return (
     <div>

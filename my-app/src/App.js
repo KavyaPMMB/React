@@ -19,23 +19,44 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Nav1 from "./Nav1";
 import Ternary from "./Ternary";
 import Ternary2 from "./Ternary2";
-import Dummy from "./Dummy";
 import Spread5 from "./Spread5";
 import Spread4 from "./Spread4";
 import Map3 from "./Map3";
 import Dummy2 from "./Dummy2";
 import Sample from "./Sample";
+import Useeffect from "./Useeffect";
+import Maptable from "./Maptable";
+import Statewithconditn from "./Statewithconditn";
+import SpreadOp from "./SpreadOp";
+import Seller from "./Seller";
+import FeeStructure from "./FeeStructure";
+import Api from "./Api";
+import ApiCarousel from "./ApiCarousel";
+import Dummy from "./Dummy";
+import About from "./About";
+import Login from "./Login";
+import Login2 from "./Login2";
+
 
 
 function App() {
   return (
     <div className="App">
+       <Login/>
+       <Login2/>
+       
+      
+  
   <BrowserRouter>
-      <Nav1/>
       <Routes>
       <Route path="/StateCard" element={<StateCard/>}/>
+      <Route path="/Seller.jsx" element={<Seller/>}/>
+      <Route path="/FeeStructure.jsx" element={<FeeStructure/>}/>
       </Routes>
+      
       <Flipcart/>
+
+      <Nav1/>
       <Hello2 />
       <Hello3 />
       <Map/>
@@ -53,12 +74,25 @@ function App() {
   </BrowserRouter>
       <Ternary/>
       <Ternary2/>
-      <Dummy/>
+
       <Spread5/>
       <Spread4/>
       <Map3/>
       <Dummy2/>
-      <Sample/>
+      <Maptable/>
+      <Statewithconditn/>
+      <SpreadOp/>
+      <Api/>
+      <ApiCarousel/>
+      <Dummy/>
+      <About/>
+     
+      
+      
+      
+      
+     
+
       
       
 
